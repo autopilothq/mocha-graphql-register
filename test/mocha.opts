@@ -1,0 +1,3 @@
+--compilers graphql:./index.js
+--reporter spec
+--recursive
