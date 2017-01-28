@@ -5,3 +5,5 @@ require.extensions['.graphql'] = function(module, filename) {
   var code = 'module.exports = ' + JSON.stringify(query);
   return module._compile(code, filename);
 }
+
+require.extensions['.gql'] = require.extensions['.graphql'];
