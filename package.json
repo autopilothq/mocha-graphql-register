@@ -14,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:autopilothq/mocha-graphql-register.git"
+  },
+  "dependencies": {
+    "graphql-tag": "^1.2.3"
   }
 }

@@ -1,1 +1,5 @@
-can_be_anything
+query GetUserProfile($id: String!) {
+  user(id: $id) {
+    id
+  }
+}
