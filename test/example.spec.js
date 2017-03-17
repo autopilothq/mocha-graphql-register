@@ -5,6 +5,7 @@ describe('example()', function() {
   it('returns expected raw graphql string', function() {
     var expectedQuery = 'can_be_anything\n';
     var returnedQuery = example();
+    console.log('==========>', returnedQuery );
 
     assert.equal(expectedQuery === returnedQuery, true);
   });

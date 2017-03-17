@@ -1,5 +1,5 @@
 # mocha-graphql-register
-Loads content of a `.graphql` file as plain string during execution of `npm test`.
+Loads content of a `.graphql` and `.gql` files as plain string during execution of `npm test`.
 
 ## Installation
 
